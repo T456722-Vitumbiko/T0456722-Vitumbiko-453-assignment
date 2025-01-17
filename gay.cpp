@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void printMultiplicationTable(int num, int range) {
+
     cout << "Multiplication Table for " << num << ":\n";
     for (int i = 1; i <= range; ++i) {
         cout << num << " x " << i << " = " << num * i << endl;
