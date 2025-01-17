@@ -17,9 +17,7 @@ int main() {
     cout << "Enter the range for the multiplication table: ";
     cin >> range;
 
-    if (range <= 0) {
-        cout << "Range must be a positive number. Please try again.\n";
-        return 1;
+
     }
 
     printMultiplicationTable(number, range);
